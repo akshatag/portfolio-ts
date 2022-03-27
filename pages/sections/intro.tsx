@@ -1,7 +1,7 @@
 import { VStack, HStack, Text, Heading, Container, Image, Box } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 
-const Social = (props) => {
+const Social = (props: any) => {
     return ( 
         <Box w={6} h={6}>
             <a href={props.link}>

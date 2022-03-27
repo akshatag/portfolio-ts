@@ -3,7 +3,7 @@ import { Container, SimpleGrid, Box, Center, Heading } from '@chakra-ui/react';
 
 
 
-const ProjectTile = (props) => {
+const ProjectTile = (props: any) => {
     return (
         <Box as='button' h={200}>
             <a href={props.link}>
