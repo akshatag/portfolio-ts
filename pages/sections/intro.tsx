@@ -40,7 +40,7 @@ const Intro = () => {
                         AKSHAT AGRAWAL
                     </Heading>
                     <Text py={4} fontSize='xl'>
-                        Exploring new ideas across a broad range of interests from Web3 to Enterprise SaaS to Climate. Most recently I was a product manager at Skyflow, a startup building an API for data privacy. Prior to that, I held product and engineering roles at Google. Reach out at one of the links below to chat!
+                        Exploring new ideas in vertical software and embedded fintech. Most recently I was a product manager at Skyflow, a startup building an API for data privacy. Prior to that, I held product and engineering roles at Google. Reach out at one of the links below to chat!
                     </Text>
                 </motion.div>
                 <motion.div
