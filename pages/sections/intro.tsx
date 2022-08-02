@@ -40,7 +40,7 @@ const Intro = () => {
                         AKSHAT AGRAWAL
                     </Heading>
                     <Text py={4} fontSize='xl'>
-                        Exploring new ideas in vertical software and embedded fintech. Most recently I was a product manager at Skyflow, a startup building an API for data privacy. Prior to that, I held product and engineering roles at Google. Reach out at one of the links below to chat!
+                        Hi, I\'m Akshat. I\'m an MBA candidate at Harvard Business School. Prior to HBS, I\'ve held product and engineering roles at Google and a few startups. At the moment, I\'m exploring a few different areas to see where I can make an impact. I\'m interested in climate, vertical SaaS, and infrastructure. Reach out to chat! 
                     </Text>
                 </motion.div>
                 <motion.div
