@@ -40,7 +40,7 @@ const Intro = () => {
                         AKSHAT AGRAWAL
                     </Heading>
                     <Text py={4} fontSize='xl'>
-                        Hi, I&aposm Akshat. I&aposm an MBA candidate at Harvard Business School. Prior to HBS, I&aposve held product and engineering roles at Google and a few startups. At the moment, I&aposm exploring a few different areas to see where I can make an impact. I&aposm interested in climate, vertical SaaS, and infrastructure. Reach out to chat! 
+                        Hi, I&apos;m Akshat. I&apos;m an MBA candidate at Harvard Business School. Prior to HBS, I&apos;ve held product and engineering roles at Google and a few startups. At the moment, I&apos;m exploring a few different areas to see where I can make an impact. I&aposm interested in climate, vertical SaaS, and infrastructure. Reach out to chat! 
                     </Text>
                 </motion.div>
                 <motion.div
