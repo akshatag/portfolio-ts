@@ -62,7 +62,7 @@ const Intro = () => {
                         <Social src="/linkedin.png" link="https://www.linkedin.com/in/akshatag"></Social>
                         <Social src="/twitter.png" link="https://www.twitter.com/akshatag77"></Social>
                         <Social src="/github.png" link="https://www.github.com/akshatag"></Social>
-                        <Social src="/cv.png" link="cv.png"></Social>
+                        <Social src="/cv.png" link="resume.pdf"></Social>
                     </HStack>
                 </motion.div>
             </VStack>
