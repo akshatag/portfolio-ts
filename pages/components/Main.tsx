@@ -126,9 +126,9 @@ const CoachingTab = (props: any) => {
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/7Hd_8nrNrZ0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/HAAWCuJyatU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 <Text pl={15}>
-                    "I came to Ash to help me break into FAANG after being in a few transition product management roles. Ash was extremely patient, 
+                    &quot;I came to Ash to help me break into FAANG after being in a few transition product management roles. Ash was extremely patient, 
                     knowledgeable about interviews, and suggested clear and actionable strategies after deeply listening to my thoughts and concerns. 
-                    After working with Ash for a couple months, I was able to land my dream product management role at Meta." -- <a style={{color: 'teal'}} href="https://www.linkedin.com/in/jkoufopoulos/">Justin</a>, PM @ Meta
+                    After working with Ash for a couple months, I was able to land my dream product management role at Meta.`&quot;` -- <a style={{color: 'teal'}} href="https://www.linkedin.com/in/jkoufopoulos/">Justin</a>, PM @ Meta
                 </Text>
             </VStack>   
         </>
