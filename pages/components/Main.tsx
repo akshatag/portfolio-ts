@@ -122,9 +122,9 @@ const CoachingTab = (props: any) => {
                 spacing={5}
                 marginBottom={500}
             >
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/XAJeXlY6w-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/7Hd_8nrNrZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HAAWCuJyatU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/XAJeXlY6w-c" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7Hd_8nrNrZ0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HAAWCuJyatU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 <Text pl={15}>
                     "I came to Ash to help me break into FAANG after being in a few transition product management roles. Ash was extremely patient, 
                     knowledgeable about interviews, and suggested clear and actionable strategies after deeply listening to my thoughts and concerns. 
