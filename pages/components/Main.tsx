@@ -63,6 +63,15 @@ const ProjectTab = (props: any) => {
     return (
         <>
             <SimpleGrid p={15} columns={{sm: 1, md: 2}} spacing={10} marginBottom={200}>
+                
+                <Project 
+                    bg="teal" 
+                    name="ConvoCoach"
+                    img="ConvoCoach.png"
+                    link="https://convocoach.vercel.app/"
+                    desc="ConvoCoach is an AI English language tutor. Students make the biggest leap in their language learning journey when they practice speaking in English with a peer. ConvoCoach gives you a practice partner on demand that can talk to you about any topic and practice any scenario."
+                />
+                
                 <Project 
                     bg="blue.400" 
                     name="Zenn"
@@ -89,7 +98,7 @@ const ProjectTab = (props: any) => {
                     img="3DTetris.png"
                     link="https://github.com/akshatag/tetris-3d"
                     desc="Tetris but in 3D! Complete with a movable camera. I wrote this in Java and used LWJGL a long time ago and have not been 
-                    able to get it compile since 2020 - but I swear it works! Please reach out ASAP if you get it to compile."
+                    able to get it compile since 2020. I swear it works and it's pretty dope. Please reach out ASAP if you get it to compile."
                 />
 
                 <Project 
@@ -100,6 +109,7 @@ const ProjectTab = (props: any) => {
                     desc="Keep all your files safely on your local computer, but access them from anywhere 
                     using Pickup -- even if your computer is asleep! Kind of like the cloud, but cheaper and more secure."
                 />
+                
             </SimpleGrid>
         </>
     )
