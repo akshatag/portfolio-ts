@@ -183,15 +183,12 @@ const Main = () => {
                 <Tabs isFitted>
                     <TabList>
                         <Tab>Projects</Tab>
-                        <Tab>Music</Tab>
                         <Tab>PM Coaching</Tab>
                     </TabList>
 
                     <TabPanels>
                         <TabPanel>
                             <ProjectTab/>
-                        </TabPanel>
-                        <TabPanel>
                         </TabPanel>
                         <TabPanel>
                             <CoachingTab/>
