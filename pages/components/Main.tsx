@@ -63,6 +63,14 @@ const ProjectTab = (props: any) => {
     return (
         <>
             <SimpleGrid p={15} columns={{sm: 1, md: 2}} spacing={10} marginBottom={200}>
+
+                <Project
+                    bg="tomato"
+                    name="GiftGenie"
+                    img="GiftGenie.png"
+                    link="https://gift-genie-fe.vercel.app/"
+                    desc="Gift Genie is the fastest way to create a personalized, n-of-1 gift. Use the interface to create a unique prompt and generate an image to memorialize any occasion from a birthday to an anniversary. Then, have that image printed on a gifts like mugs or puzzles." 
+                />
                 
                 <Project 
                     bg="teal" 
@@ -120,7 +128,7 @@ const CoachingTab = (props: any) => {
         <>
             <Text p={15}>
                 I help people who are trying to break into product management, from new grads to people making a career switch. My style is to work with people over a longer period of time, from 
-                finding and applying to the right PM jobs, to interview prep, to helping them in their first 6 months as a PM. If that sounds useful to you, get in touch! If you are just looking for a mock interview, 
+                finding and applying to the right PM jobs, to interview prep, to helping them in their first 6 months as a PM. If that sounds useful to you, get in touch! If you are looking for a 1-off mock interview, 
                 check out <a style={{color: 'teal'}} href="https://igotanoffer.com/">IGotAnOffer</a> or <a style={{color: 'teal'}} href="https://www.tryexponent.com/">Exponent</a>. 
             </Text>
 
@@ -157,7 +165,7 @@ const Main = () => {
                     </Heading>
 
                     <Text paddingTop={4} fontSize='xl'>
-                        I&apos;m a student at Harvard Business School. Prior to HBS, I held product and engineering roles at Google and a few startups. At the moment, I&apos;m exploring next steps. I&apos;m primarily interested in climate and AI. Reach out to chat! 
+                        I work at <a style={{color: 'teal'}} href="https://codeium.com">Codeium</a>. Prior to Codeium, I held product and engineering roles at Google and a few startups. Reach out to chat about side projects, AI, music production, skiing, golf, poker, etc! 
                     </Text>
                 </motion.div>
                 
@@ -175,12 +183,15 @@ const Main = () => {
                 <Tabs isFitted>
                     <TabList>
                         <Tab>Projects</Tab>
+                        <Tab>Music</Tab>
                         <Tab>PM Coaching</Tab>
                     </TabList>
 
                     <TabPanels>
                         <TabPanel>
                             <ProjectTab/>
+                        </TabPanel>
+                        <TabPanel>
                         </TabPanel>
                         <TabPanel>
                             <CoachingTab/>
