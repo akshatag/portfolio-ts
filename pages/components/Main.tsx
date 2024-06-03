@@ -1,8 +1,11 @@
-import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton } from '@chakra-ui/react'
+import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton, background } from '@chakra-ui/react'
 import { VStack, HStack, Text, Heading, Center, Container, Image, Box, Button, SimpleGrid } from '@chakra-ui/react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import { useDisclosure } from '@chakra-ui/react'
 import { motion } from 'framer-motion'; 
+
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 
 const Social = (props: any) => {
     return ( 
@@ -153,6 +156,43 @@ const CoachingTab = (props: any) => {
     )
 }
 
+const MixesTab = (props: any) => {
+    return (
+        <VStack spacing={5} marginTop={5}>
+        
+            <AudioPlayer
+                style={{background: 'black'}}
+                src="sadqay_nwantiti.mp3"
+                onPlay={e => console.log("onPlay")}
+                header={
+                    <Text color="teal">Sadqay x Nwantiti</Text>
+                }
+
+            />
+
+            <AudioPlayer
+                style={{background: 'black'}}
+                src="hr_mashup.mp3"
+                onPlay={e => console.log("onPlay")}
+                header={
+                    <Text color="teal">Himesh Reshammiya Mashup</Text>
+                }
+            />  
+
+            <AudioPlayer
+                style={{background: 'black'}}
+                src="akhiyaan_club_mix.mp3"
+                onPlay={e => console.log("onPlay")}
+                header={
+                    <Text color="teal">Akhiyaan Club Mix</Text>
+                }
+            />  
+
+
+        </VStack>
+    )
+}
+
 
 const Main = () => {
 
@@ -183,7 +223,8 @@ const Main = () => {
                 <Tabs isFitted>
                     <TabList>
                         <Tab>Projects</Tab>
-                        <Tab>PM Coaching</Tab>
+                        <Tab>Mixes</Tab>
+                        <Tab>Coaching</Tab>
                     </TabList>
 
                     <TabPanels>
@@ -191,8 +232,12 @@ const Main = () => {
                             <ProjectTab/>
                         </TabPanel>
                         <TabPanel>
+                            <MixesTab/>
+                        </TabPanel>
+                        <TabPanel>
                             <CoachingTab/>
                         </TabPanel>
+ 
                     </TabPanels>
                 </Tabs>
             </motion.div>
