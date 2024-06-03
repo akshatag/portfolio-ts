@@ -162,10 +162,25 @@ const MixesTab = (props: any) => {
         
             <AudioPlayer
                 style={{background: 'black'}}
+                src="akhiyaan_club_mix.mp3"
+                onPlay={e => console.log("onPlay")}
+                header={
+                    <VStack spacing={3} marginBottom={2}justify={"center"}>
+                        <Text color="teal">Akhiyaan EDM Remix</Text>
+                        <Text justifyContent="center" fontSize={16} color="teal"><i>I tried making an EDM version of one of my favorite recent songs. Unlike other mixes and mashups which borrow instrumentals and samples from the original song, the instrumentals in this mix are completely original and only the vocals from the original have been sampled.</i></Text>
+                    </VStack>
+                }
+            /> 
+
+            <AudioPlayer
+                style={{background: 'black'}}
                 src="sadqay_nwantiti.mp3"
                 onPlay={e => console.log("onPlay")}
                 header={
-                    <Text color="teal">Sadqay x Nwantiti</Text>
+                    <VStack spacing={3} marginBottom={2}justify={"center"}>
+                        <Text color="teal">Sadqay x Nwantiti Mashup</Text>
+                        <Text justifyContent="center" fontSize={16} color="teal"><i>A fun, laid back mashup of recent hit song "Sadqay" and a 2021 throwback "Love Nwantiti" with an Afrobeats feel.</i></Text>
+                    </VStack>
                 }
 
             />
@@ -175,16 +190,25 @@ const MixesTab = (props: any) => {
                 src="hr_mashup.mp3"
                 onPlay={e => console.log("onPlay")}
                 header={
-                    <Text color="teal">Himesh Reshammiya Mashup</Text>
+                    <VStack spacing={3} marginBottom={2}justify={"center"}>
+                        <Text color="teal">Himesh Reshammiya Mashup</Text>
+                        <Text justifyContent="center" fontSize={16} color="teal"><i>HR dominated Bollywood in the early 2000s. This mashup combines some of his biggest hits.</i></Text>
+                    </VStack>
                 }
             />  
 
+
+
+
             <AudioPlayer
                 style={{background: 'black'}}
-                src="akhiyaan_club_mix.mp3"
+                src="kesariya_mix.mp3"
                 onPlay={e => console.log("onPlay")}
                 header={
-                    <Text color="teal">Akhiyaan Club Mix</Text>
+                    <VStack spacing={3} marginBottom={2}justify={"center"}>
+                        <Text color="teal">Kesariya Hindi x Tamil Mashup</Text>
+                        <Text justifyContent="center" fontSize={16} color="teal"><i>An iconic wedding song. My wife and I had a Tamilian/Maharashtrian wedding and walked down the aisle to this mashup. </i></Text>
+                    </VStack>
                 }
             />  
 
