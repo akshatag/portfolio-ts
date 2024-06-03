@@ -179,7 +179,7 @@ const MixesTab = (props: any) => {
                 header={
                     <VStack spacing={3} marginBottom={2}justify={"center"}>
                         <Text color="teal">Sadqay x Nwantiti Mashup</Text>
-                        <Text justifyContent="center" fontSize={16} color="teal"><i>A fun, laid back mashup of recent hit song "Sadqay" and a 2021 throwback "Love Nwantiti" with an Afrobeats feel.</i></Text>
+                        <Text justifyContent="center" fontSize={16} color="teal"><i>A fun, laid back mashup of recent hit song &quot;Sadqay&quot; and a 2021 throwback &quot;Love Nwantiti&quot; with an Afrobeats feel.</i></Text>
                     </VStack>
                 }
 
